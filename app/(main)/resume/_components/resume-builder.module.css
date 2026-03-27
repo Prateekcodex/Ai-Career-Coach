@@ -1,0 +1,22 @@
+.forceWhiteBg,
+.forceWhiteBg * {
+  background: #fff !important;
+  color: #000 !important;
+  box-shadow: none !important;
+  filter: none !important;
+}
+#resume-pdf,
+#resume-pdf * {
+  background: #fff !important;
+  color: #000 !important;
+}
+.pdfHidden {
+  position: absolute !important;
+  left: -9999px !important;
+  top: 0 !important;
+  width: 1000px !important;
+  height: auto !important;
+  overflow: hidden !important;
+  pointer-events: none !important;
+  z-index: -9999 !important;
+}
